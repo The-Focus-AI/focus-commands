@@ -1,0 +1,9 @@
+{
+  "name": "focus-commands",
+  "version": "1.0.0",
+  "description": "Project setup commands for Focus.AI projects",
+  "author": {
+    "name": "The Focus AI"
+  },
+  "commands": "./commands"
+}

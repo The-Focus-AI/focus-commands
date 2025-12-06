@@ -1,0 +1,36 @@
+# focus-commands
+
+Claude Code plugin providing project setup commands for Focus.AI projects.
+
+## Installation
+
+```bash
+claude-code plugins install The-Focus-AI/focus-commands
+```
+
+## Available Commands
+
+### /setup-beads
+
+Initialize the Beads (bd) issue tracking system for the current project.
+
+This command will:
+1. Install required tools (Node.js, Claude Code, Beads) using mise
+2. Initialize the beads database (`bd init`)
+3. Configure Beads for Claude Code integration (`bd setup claude --project`)
+4. Add onboarding reminder to CLAUDE.md
+
+**Usage:**
+```
+/setup-beads
+```
+
+After running this command, you can use `bd` commands to manage issues in your project.
+
+## About
+
+This plugin is maintained by The Focus AI to streamline project setup workflows for Claude Code projects.
+
+## License
+
+MIT
