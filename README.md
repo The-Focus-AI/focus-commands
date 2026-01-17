@@ -4,8 +4,22 @@ Claude Code plugin providing project setup commands for Focus.AI projects.
 
 ## Installation
 
+### Via Focus Marketplace (Recommended)
+
 ```bash
-claude-code plugins install The-Focus-AI/focus-commands
+# Add the Focus marketplace (if not already added)
+/plugin marketplace add The-Focus-AI/claude-marketplace
+
+# Install the plugin
+/plugin install focus-commands@focus-marketplace
+```
+
+Then restart Claude Code.
+
+### Direct Install
+
+```bash
+/plugin install https://github.com/The-Focus-AI/focus-commands
 ```
 
 ## Available Commands
